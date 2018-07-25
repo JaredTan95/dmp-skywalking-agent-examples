@@ -9,10 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>dmp-skywalking-agent-trace-activation-demo</artifactId>
+    <artifactId>dmp-skywalking-agent-integration-log4j-demo</artifactId>
 
-
-    <!--1.import skywalking toolkit trace package-->
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -21,8 +19,16 @@
 
         <dependency>
             <groupId>org.apache.skywalking</groupId>
-            <artifactId>apm-toolkit-trace</artifactId>
+            <artifactId>apm-toolkit-logback-1.x</artifactId>
         </dependency>
-    </dependencies>
+        <!--<dependency>
+            <groupId>org.apache.skywalking</groupId>
+            <artifactId>apm-toolkit-log4j-1.x</artifactId>
+        </dependency>-->
 
+  <!--      <dependency>
+            <groupId>org.apache.skywalking</groupId>
+            <artifactId>apm-toolkit-log4j-2.x</artifactId>
+        </dependency>-->
+    </dependencies>
 </project>
