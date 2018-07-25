@@ -1,4 +1,4 @@
-# 使用SkyWalking手动追踪API
+# 日志组件集成
 
 - 使用 maven 和 gradle 依赖相应的工具包:
 ```xml
