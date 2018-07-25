@@ -29,3 +29,9 @@ public void hello(){
         Thread.sleep(6000l);
     }
 ```
+
+- 运行：
+**vm options:** 
+```text
+-javaagent:/Users/tanjian/Daocloud-gitlab/DMP/sky/github-source/incubator-skywalking/skywalking-agent/skywalking-agent.jar -Dskywalking.collector.servers=localhost:10800 -Dskywalking.agent.application_code=dmp-sw-trace-activation-demo
+```

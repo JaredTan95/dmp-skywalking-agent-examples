@@ -32,3 +32,8 @@
 2018-07-25 17:45:10.247 [TID:39.58.15325119102050001] [http-nio-8001-exec-1] INFO  o.s.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
 2018-07-25 17:45:10.314 [TID:39.58.15325119102050001] [http-nio-8001-exec-1] INFO  i.d.n.sw.log4j.HelloWorldController -words:dddddd
 ```
+- 运行：
+**vm options:** 
+```text
+-javaagent:/Users/tanjian/Daocloud-gitlab/DMP/sky/github-source/incubator-skywalking/skywalking-agent/skywalking-agent.jar -Dskywalking.collector.servers=localhost:10800 -Dskywalking.agent.application_code=dmp-sw-log4j-demo
+```
